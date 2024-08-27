@@ -25,7 +25,7 @@
            sync-j="4"
            revision="refs/heads/14.0" />
 
-  <project path="android" name="android" remote="matrixx" />
+  <project path="android" name="ionutsandroidbuilds/android" revision="14.0" remote="github" />
 
   <project path="bootable/recovery" name="android_bootable_recovery" groups="pdk" remote="matrixx" />
 
@@ -69,7 +69,7 @@
   <project path="system/core" name="android_system_core" groups="pdk" remote="matrixx" />
 
   <project path="vendor/addons" name="android_vendor_addons" remote="matrixx"  />
-  <project path="vendor/lineage" name="android_vendor_lineage" remote="matrixx"  />
+  <project path="vendor/lineage" name="ionutsandroidbuilds/android_vendor_matrixx" revision="14.0" remote="github"  />
   <project path="vendor/MatrixxOTA" name="android_vendor_MatrixxOTA" remote="matrixx-devices"  />
   <project path="vendor/pixel-framework" name="android_vendor_pixel-framework" remote="matrixx" />
 
